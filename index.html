@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>For Zeinab ❤️</title>
+<style>
+body{
+background:linear-gradient(to right,#ff9a9e,#fad0c4);
+text-align:center;
+font-family:Arial;
+overflow:hidden;
+}
+h1{
+color:white;
+margin-top:80px;
+font-size:40px;
+}
+p{
+color:white;
+font-size:20px;
+width:70%;
+margin:auto;
+}
+button{
+padding:12px 25px;
+font-size:18px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+margin:10px;
+}
+#yes{
+background:#ff4d6d;
+color:white;
+}
+#no{
+background:white;
+color:#ff4d6d;
+position:absolute;
+}
+#surprise{
+background:white;
+color:#ff4d6d;
+}
+</style>
+</head>
+<body>
+
+<h1>Happy Valentine Zainab ❤️</h1>
+
+<p>
+زينب ❤️  
+من أول ما دخلتي حياتي وانتي غيرتي كل حاجة فيها.  
+وجودك أمان، وضحكتك حياة، وقربك نعمة بشكر ربنا عليها كل يوم.  
+بحبك أكتر من أي كلام يتقال 💕
+</p>
+
+<button id="surprise" onclick="alert('زينب ❤️ انتي أحلى حاجة حصلتلي في الدنيا، ومش ناوي أسيبك طول العمر 😌💕')">
+اضغطي هنا للمفاجأة 🎁
+</button>
+
+<br><br>
+
+<h2 style="color:white;">هتفضلي معايا طول العمر؟ 😏</h2>
+
+<button id="yes" onclick="alert('كنت عارف إنك هتقولي اه 😍❤️')">Yes 💖</button>
+<button id="no">No 😅</button>
+
+<script>
+var noBtn = document.getElementById("no");
+
+noBtn.addEventListener("mouseover", function(){
+noBtn.style.top = Math.random()*80 + "%";
+noBtn.style.left = Math.random()*80 + "%";
+});
+</script>
+
+</body>
+</html>
